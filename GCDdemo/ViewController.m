@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "OneViewController.h"
 
 @interface ViewController ()
 
@@ -26,4 +27,8 @@
 }
 
 
+- (IBAction)nextAc:(id)sender {
+    OneViewController *oneVc = [[OneViewController alloc] init];
+    [self.navigationController pushViewController:oneVc animated:YES];
+}
 @end

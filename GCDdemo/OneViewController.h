@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OneViewController.h
 //  GCDdemo
 //
 //  Created by YI on 16/10/7.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface OneViewController : UIViewController
 
-
-- (IBAction)nextAc:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @end
-

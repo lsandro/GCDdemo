@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TwoViewController.h
 //  GCDdemo
 //
 //  Created by YI on 16/10/7.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TwoViewController : UIViewController
 
-
-- (IBAction)nextAc:(id)sender;
 @end
-
